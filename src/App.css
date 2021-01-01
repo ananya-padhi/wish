@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+  color: #0c0b0b;
+}
+body {
+  background-image: url("https://media3.giphy.com/media/XHRFATmCJk94SsD9cD/source.gif");
+  background-repeat: no-repeat, repeat;
+  background-color: #dbbdbd;
+  background-size: cover;
+}
+.message{
+  /* background-image: url("https://cdn3.vectorstock.com/i/1000x1000/46/67/torn-ripped-paper-hole-on-transparent-background-vector-24034667.jpg"); */
+  border-style: double;
+  border-width: 0.rem;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
