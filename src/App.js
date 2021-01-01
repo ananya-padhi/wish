@@ -11,8 +11,8 @@ function App() {
     <Router>
     <Switch>
       <Route exact path="/wish" component={Details}/>
-      <Route exact path="/:name/:message" component={DisplayAndSend}/>
-      <Route exact path="/:name/:message/new" component={NewUser}/>
+      <Route exact path="/wish/:name/:message" component={DisplayAndSend}/>
+      <Route exact path="/wish/:name/:message/new" component={NewUser}/>
     </Switch>
     </Router>
     </>
