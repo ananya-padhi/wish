@@ -9,7 +9,7 @@ class NewUser extends React.Component{
         link:window.location.href,
     };
     redirect=(e)=>{
-        window.open('/');
+        window.open('/wish');
     }
     
     render(){
