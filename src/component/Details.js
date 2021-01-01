@@ -19,8 +19,7 @@ class Details extends React.Component{
     };
     afterClick =() =>{
         if(this.state.name && this.state.message){
-            window.open(`/wish/${this.state.name}/${this.state.message}`);
-            this.setState({name:"",message:""});
+            window.open(`/${this.state.name}/${this.state.message}`);
         }
         else if(this.state.name && !this.state.message){
             this.setState({alertDisplay:true, alertMessage:"Enter a message to proceed"});
